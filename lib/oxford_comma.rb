@@ -6,8 +6,8 @@ array_length = array.length
     array.join(" and ")
   elsif array_length == 3
     array.insert(2, "and")
-  elsif array_length == 4
-    array.join
+  else
+    array_length == 4
     # pop_elem = array.pop
   end
 end
