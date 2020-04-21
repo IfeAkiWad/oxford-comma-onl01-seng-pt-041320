@@ -7,7 +7,7 @@ array_length = array.length
   elsif array_length == 3
     array.pop
     # array.insert(2, "and")
-  
+
     # pop_elem = array.pop
   end
 end
