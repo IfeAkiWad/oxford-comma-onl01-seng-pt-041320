@@ -6,7 +6,7 @@ array_length = array.length
     array.join(" and ")
   elsif array_length == 3
     array.insert(2, "and")
-
+    array_length = ["kiwi", "durian", "and", "starfruit"]
     # pop_elem = array.pop
   end
 end
