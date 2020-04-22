@@ -5,9 +5,8 @@ array_length = array.length
   elsif array_length == 2
     array.join(" and ")
   elsif array_length == 3
-    array.insert(2, "and")
-    array.join(", ")
-    # pop_elem = array.pop
+    pop_elem = array.pop
+    array << " and #{pop_elem}"
   end
 end
 
