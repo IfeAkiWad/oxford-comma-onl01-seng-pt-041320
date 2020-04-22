@@ -4,7 +4,7 @@ array_length = array.length
     array.join
   elsif array_length == 2
     array.join(" and ")
-  elsif array_length == 3
+  elsif array_length >= 3
     pop_elem = array.pop
     array << "and #{pop_elem}"
     array.join(", ")
